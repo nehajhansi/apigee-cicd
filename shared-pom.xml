@@ -153,13 +153,13 @@
             </properties>
         </profile>
         <profile>
-            <id>prod</id>
+            <id>test-env</id>
             <properties>
-                <apigee.profile>prod</apigee.profile>
+                <apigee.profile>test-env</apigee.profile>
                 <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
-                <apigee.org>onlineman477-eval</apigee.org>
-                <apigee.env>prod</apigee.env>
+                <apigee.org>lexical-aquifer-390605</apigee.org>
+                <apigee.env>test-env</apigee.env>
                 <apigee.username>${username}</apigee.username>
                 <apigee.password>${password}</apigee.password>
                 <apigee.authtype>oauth</apigee.authtype> <!-- optional: oauth|basic(default) -->
